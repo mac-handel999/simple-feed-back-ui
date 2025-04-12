@@ -1,0 +1,98 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+body {
+    font-size: 15pt;
+    background-color: #42445A;
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.h-line {
+  padding: 10px;
+  margin: 0px;
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.container {
+  margin-top: 450px;
+  padding: 10px;
+  background-color: white;
+  border-top-right-radius:20px ;
+  border-top-left-radius: 20px;
+}
+
+h5 {
+  margin: 10px;
+  padding: 5px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.feed-back-text {
+  font-size: 0.5rem;
+  margin: 40px;
+  padding: 40px;
+  text-align: center;
+}
+
+.emojis {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 10px;
+  column-gap: 10px;
+  font-size: 0.9rem;
+}
+
+.crying-face,.smiling-face, .neutral-face, .disappointed-face,.slightly-smiling {
+  margin: 3px;
+  padding: 10px;
+  text-align: center;
+  background-color:#161E7E;
+  border-radius: 50px;
+  width: 50%;
+  
+}
+
+.input {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+textarea {
+  margin: 5px;
+  padding: 5px;
+  width: 280px;
+  height: 110px;
+  border-radius: 10px;
+  text-align: left;
+  background-color: lightgrey;
+}
+
+.submit {
+  margin: 10px;
+  padding: 10px;
+  width: 287px;
+  border-radius: 10px;
+  background-color: #161E7E;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+.neutral-face {
+  font-size: 2rem;
+}
